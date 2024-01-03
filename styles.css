@@ -337,6 +337,22 @@ section {
 
 
 
+
+#contact {
+    display: flex;
+    justify-content: center;
+    /* gap: 2rem; */
+    height: 40vh;
+    background-color: white;
+    position: relative;
+    flex-direction: column;
+    flex: 1;
+    padding: 7rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+
 /* more containers */
 
 .starting-container, .details-container {
