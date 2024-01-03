@@ -57,9 +57,10 @@ nav {
 }
 
 a {
-    color: black;
+    color: #232323;
     text-decoration: none;
     text-decoration-color: white;
+    font-weight: 500;
 }
 
 a:hover {
@@ -259,3 +260,37 @@ section {
     margin-bottom: 4rem;
 }
 
+
+
+/* master log */
+
+#master-log {
+    display: flex;
+    justify-content: center;
+    /* gap: 2rem; */
+    height: 40vh;
+    background-color: black;
+    position: relative;
+    flex-direction: column;
+    flex: 1;
+    padding: 7rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.title-mastlog {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.section__text__p3 {
+    text-align: center;
+    color: white;
+    text-align: center;
+    align-self: center;
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
