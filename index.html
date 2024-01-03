@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"  />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"  />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"  />
+    <title>eSilverslip Hub</title>
+    <link rel="stylesheet" href="styles.css"  />
+    <link rel="stylesheet" href="mediaqueries.css"  />
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">eSilverslip</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#master-log">Master Log</a></li>
+                <li><a href="#faqs">FAQs</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">eSilverslip</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#master-log" onclick="toggleMenu()">Master Log</a></li>
+                <li><a href="#faqs" onclick="toggleMenu()">FAQs</a></li>
+                <li><a href="#team" onclick="toggleMenu()">Team</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="home">
+        <!-- <div class="section__pic-container">
+            <img src="./assets/" alt="eSilverslip"  />
+        </div> -->
+        <div class="section__text">
+            <p class="section__text__p1">welcome to the</p>
+            <h1 class="title">eSilverslip Hub</h1>
+            <div class="btn-container">
+                <button class="btn btn-home-1" onclick="window.open('http://tinyurl.com/eSilverslip', '_blank')">eSilverslip Request Form</button>
+                <button class="btn btn-home-2" onclick="location.href='./#contact'">Contact</button>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <h1 class="title">About eSilverslip</h1>
+        <div class="section-container">
+            <div class="section-container">
+                <p class="section_text_p1">
+                    eSilverslip is a digital system that allows students to request to travel to different classrooms
+                    during Embedded Time. This system processes requests sent in by students via Google Form and notifies
+                    teachers about who will be traveling in and out of their classroom during Embedded Time. To view
+                    in-depth user guides for eSilverslip, <b class="highlight">click the buttons below:</b>
+                </p>
+            </div>
+        </div>
+        <div class="btn-container">
+            <button class="btn btn-home-1" onclick="window.open('http://tinyurl.com/eSilverslip', '_blank')">Student Guide</button>
+            <button class="btn btn-home-2" onclick="window.open('http://tinyurl.com/essTeacherGuide', '_blank')">Teacher Guide</button>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
